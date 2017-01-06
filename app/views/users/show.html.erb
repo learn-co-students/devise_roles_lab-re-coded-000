@@ -1,0 +1,7 @@
+<p><%= @user.name %></p>
+<p><%= @user.email %></p>
+<% if @user.admin? %>
+<%= form_for @user, :html => { :method => :delete } do |f| %>
+ <p><%= f.submit "delete user"%></p>
+<% end %> 
+<% end %>
