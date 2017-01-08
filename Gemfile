@@ -8,6 +8,7 @@ gem 'devise'
 gem 'high_voltage'
 gem 'sqlite3'
 gem 'cancancan'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
